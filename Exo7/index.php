@@ -1,5 +1,4 @@
 <?php 
-  include "..\..\\top_html.php";
   include "..\\top_p5.php";
   echo "Exercice 7";
   ?>
@@ -14,8 +13,5 @@
         echo "dept 51 : " . $departements["51"];
       ?>
       </p>
-    
-  </body>
-</html>
 
-<?php include "..\..\bottom_html.php";
+<?php include "..\..\bottom_html.php"; ?>

@@ -1,5 +1,4 @@
 <?php 
-  include "..\..\\top_html.php";
   include "..\\top_p5.php";
   echo "Exercice 2";
   ?>
@@ -13,8 +12,5 @@
         echo "valeur de la 3ème ligne : $months[2]";
       ?>
       </p>
-    
-  </body>
-</html>
 
-<?php include "..\..\bottom_html.php";
+<?php include "..\..\bottom_html.php"; ?>

@@ -1,5 +1,4 @@
 <?php 
-  include "..\..\\top_html.php";
   include "..\\top_p5.php";
   echo "Exercice 1";
   ?>
@@ -19,13 +18,10 @@
   </p>
   <hr>
   <p class="topicTitle">Résultats</p>
-      <p>
-      <?php
-        $months = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "décembre");
-      ?>
-      </p>
+    <p>
+    <?php
+      $months = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "décembre");
+    ?>
+    </p>
     
-  </body>
-</html>
-
-<?php include "..\..\bottom_html.php";
+<?php include "..\..\bottom_html.php"; ?>

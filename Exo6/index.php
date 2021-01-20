@@ -1,5 +1,4 @@
 <?php 
-  include "..\..\\top_html.php";
   include "..\\top_p5.php";
   echo "Exercice 6";
   ?>
@@ -14,7 +13,4 @@
       ?>
       </p>
     
-  </body>
-</html>
-
-<?php include "..\..\bottom_html.php";
+<?php include "..\..\bottom_html.php"; ?>
