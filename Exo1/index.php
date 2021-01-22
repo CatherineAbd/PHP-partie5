@@ -20,8 +20,26 @@
   <p class="topicTitle">Résultats</p>
     <p>
     <?php
-      $months = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "décembre");
+      // $months = array("janvier", "février", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "décembre");
+      $months = [
+        "janvier", 
+        "février", 
+        "mars", 
+        "avril", 
+        "mai", 
+        "juin", 
+        "juillet", 
+        "aout", 
+        "septembre", 
+        "octobre", 
+        "novembre", 
+        "décembre"];
+      echo "affichage du tableau months : <br>";
+      var_dump($months);
     ?>
     </p>
+    <pre>
+        <?php print_r($months) ?>
+    </pre>
     
 <?php include "..\..\bottom_html.php"; ?>

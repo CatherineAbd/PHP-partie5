@@ -1,5 +1,5 @@
 <?php include "..\..\\top_html.php"; ?>
-  <h1>PHP PARTIE 5</h1>
+  <h1>PHP PARTIE 5 - LES TABLEAUX</h1>
   <hr>
   <ul>
     <li><a href="../Exo1/index.php">Exo 1</a></li>
